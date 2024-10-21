@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <Main />
         <About />
         <Technologies />
-        <div className="website-previews">
+        <div className="website-previews mt-20">
           <WebsitePreview
             imageUrl="\hcjdemo.jpg"
             link="https://imgunny.netlify.app/"
