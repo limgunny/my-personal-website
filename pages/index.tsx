@@ -17,29 +17,21 @@ const Home: NextPage = () => {
           <WebsitePreview
             imageUrl="\hcjdemo.jpg"
             link="https://imgunny.netlify.app/"
-            title="HCJ Demo"
+            title=" "
           />
           <WebsitePreview
             imageUrl="/jbradio.jpg"
             link="https://fianl-team-project.vercel.app/"
-            title="라디오 홈페이지 제작"
+            title=" "
           />
           <WebsitePreview
             imageUrl="/shopping.jpg"
             link="https://wwonderfruit.netlify.app/"
-            title="쇼핑몰 사이트 제작"
+            title=" "
           />
         </div>
         <Contact />
       </Layout>
-      <style jsx>{`
-        .website-previews {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          margin: 20px 0;
-        }
-      `}</style>
     </>
   )
 }
